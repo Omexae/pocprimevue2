@@ -1,5 +1,6 @@
 const path = require('path')
 const { VueLoaderPlugin } = require('vue-loader')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/main.js',
@@ -32,8 +33,21 @@ module.exports = {
       }
     ]
   },
+  devtool: 'inline-source-map',
+  devServer: {
+    static: './dist',
+  },
   plugins: [
     // make sure to include the plugin!
-    new VueLoaderPlugin()
-  ]
+    new VueLoaderPlugin(),
+    new HtmlWebpackPlugin({
+      title: 'Development',
+    }),
+  ],
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
+    publicPath: '/',
+  },
 }

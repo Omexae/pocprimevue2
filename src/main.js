@@ -64,7 +64,6 @@ Vue.use(PrimeVue);
 
 Vue.component('InputText', InputText);
 Vue.component('Button', Button);
-Vue.component('Toast', Toast);
 Vue.component('Chart', Chart);
 Vue.component('TabView', TabView);
 Vue.component('TabPanel', TabPanel);
