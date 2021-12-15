@@ -7,6 +7,8 @@ Vue.config.productionTip = false
 import 'regenerator-runtime/runtime'
 import 'core-js';
 import 'whatwg-fetch'
+import 'core-js/stable'
+import "core-js/modules/es.promise";
 /*import 'core-js/es6/symbol';
 import 'core-js/es6/object';
 import 'core-js/es6/function';
