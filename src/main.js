@@ -3,10 +3,6 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
-
 
 import 'regenerator-runtime/runtime'
 import 'core-js';
@@ -76,3 +72,6 @@ Vue.component('SelectButton', SelectButton)
 Vue.component('ScrollPanel', ScrollPanel)
 Vue.component('Sidebar', Sidebar)
 
+new Vue({
+  render: h => h(App),
+}).$mount('#app')
