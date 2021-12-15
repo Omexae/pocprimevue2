@@ -42,12 +42,10 @@
 <script>
 
 import { ref } from 'vue'
-import backgimg from './assets/magisoft_rognee.png'
 
 export default {
   data(){
     return{
-      backgimg,
       basicData:{
                 labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                 datasets: [

@@ -30,7 +30,6 @@ import 'core-js/es6/set';*/
 import PrimeVue from 'primevue/config'
 import Button from 'primevue/button'
 import InputText from 'primevue/inputtext'
-import Toast from 'primevue/toast'
 import ToastService from 'primevue/toastservice';
 import Chart from 'primevue/chart';
 import 'primeflex/primeflex.css';
@@ -62,7 +61,6 @@ import 'primeflex/src/_elevation.scss';*/
 //import Dialog from 'primevue/dialog';
 
 Vue.use(PrimeVue);
-Vue.use(ToastService);
 
 Vue.component('InputText', InputText);
 Vue.component('Button', Button);
