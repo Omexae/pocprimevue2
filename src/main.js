@@ -9,6 +9,9 @@ import 'core-js';
 import 'whatwg-fetch'
 import 'core-js/stable'
 import "core-js/modules/es.promise";
+import "babel-polyfill"
+import Promise from 'es6-promise';
+Promise.polyfill();
 /*import 'core-js/es6/symbol';
 import 'core-js/es6/object';
 import 'core-js/es6/function';

@@ -34,8 +34,8 @@
       Et tortor consequat id porta nibh venenatis cras sed. Diam maecenas ultricies mi eget mauris.
       Eget egestas purus viverra accumsan in nisl nisi. Suscipit adipiscing bibendum est ultricies integer.
       Mattis aliquam faucibus purus in massa tempor nec.
+      <Chart type="bar" :data="basicData"/>
     </ScrollPanel>
-    <Chart type="bar" :data="basicData"/>
   </div>
 </template>
 
